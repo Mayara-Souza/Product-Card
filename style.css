@@ -31,15 +31,19 @@ html{
 }
 
 #product-info{
-    top: -1.2rem;
+    top: -1.5rem;
     flex-direction: column;
     align-items: flex-start;
 }
 
 #interactive-icon{
     position: absolute;
-    top: 30vh;
+    top: 25vh;
     right: 10vw; 
+}
+
+.closed{
+    display: none;
 }
 
 #product-info > * {

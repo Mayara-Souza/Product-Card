@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
     <title>Product card</title>
 </head>
 <body>
     <div class="container">
         <section id="product-image">
-            <img src="./assets/sofa.svg" alt="Sofá Margot cor rosê">
+            <img src="./assets/sofa.svg" id="img-sofa" style="width: 45vw;" alt="Sofá Margot cor rosê">
+            <img src="./assets/Sofa-animation.gif" id="gif-sofa" class="closed" style="width: 45vw;" alt="Sofá Margot cor rosê 3d view">
 
-            <div id="interactive-icon">
-                <img src="./assets/close-icon.svg" alt="">
+            <div id="interactive-icon" onclick="openCloseGif()">
+                <img src="./assets/close-icon.svg" id="close-icon" class="closed" alt="close 3d animation.">
+                <img src="./assets/3Dview-icon.svg" id="open-gif-icon" alt="view 3d animation">
             </div>
         </section>
 
